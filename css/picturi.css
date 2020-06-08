@@ -2091,14 +2091,25 @@
 			width: 103%;
 			height: 550px;
 		}
+		#umbra_sus {
+			width: 122%;
+			position: absolute;
+			height: 15px;
+			margin-top: -15px;
+			margin-left: -12%;
+			background-color: grey;
+			background-image: none;
+			-webkit-clip-path: polygon(0 0, 10% 100%, 90% 100%, 100% 0);
+			clip-path: polygon(0 0, 9% 100%, 91% 100%, 100% 0);
+		}
 		#imagine_continuare_dreapta {
-			margin-top: 0px;
+			margin-top: 15px;
 			width: 85%;
 			height: 568px;
 			position: relative;
 			left: 50%;
 			transform: translate(-50%);
-			z-index: -1
+			z-index: -1			
 		}
 		.swiper-container {
 			height: 440px;
